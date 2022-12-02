@@ -1,0 +1,1294 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+  --element-size:2000px;
+}
+body {
+  background-color: rgb(78, 101, 112);
+}
+/* header */
+.titleheader{
+  max-width: var(--element-size);
+  width: 100%;
+  height: 450px;
+  margin: 0 auto; 
+}
+.header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  background: -webkit-gradient(linear,left top, left bottom,from(#5f0c90),to(rgb(51, 51, 239)));
+  background: -o-linear-gradient(#5f0c90,rgb(51, 51, 239));
+  background: linear-gradient(#5f0c90,rgb(51, 51, 239));
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.85;
+  position: absolute;
+  z-index: 34;
+  top: 2%;
+}
+
+.burgerbar {
+  display: none;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+.fa-bars {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+}
+.ultag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+}
+.mov {
+  width: 50px;
+  border-radius: 50%;
+  
+}
+.atag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  margin-right: 70px;
+  text-shadow: 2px 2px 2px rgb(8, 89, 51);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  margin-right: 70px;
+  text-shadow: 2px 2px 2px rgb(8, 89, 51);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gear:hover {
+  color: rgb(255, 0, 0);
+  text-shadow:1px 1px 1px rgb(48, 47, 47);
+  
+}
+.atag:hover {
+   font-size: 20px;
+   background-color: rgba(255, 255, 255, 0.858);
+   border-radius: 5px;
+   color: rgb(2, 34, 35);
+   text-shadow:1px 1px 1px rgb(48, 47, 47);
+}
+
+.swiper {
+  max-width: var(--element-size);
+  width: 100%;
+  height: 450px;
+  position: relative;
+  z-index: 3;
+}
+.swiper-slide img {
+  width: 100%;
+}
+/* section */
+
+.topnav {
+  margin: 0 auto;
+  max-width:900px;
+  width: 100%;
+}
+.form {
+  margin: 0 auto;
+}
+.button {
+   max-width: 50px;
+   width: 80%;
+   margin-left: 65px;
+   border: none;
+   background-color: rgb(70, 166, 230);
+   height: 30px;
+   
+}
+.inputtypetext {
+  max-width:800px;
+  width: 80%;
+  border: none;
+  border-radius: 2px;
+  height: 30px;
+}
+.inputtypetext:focus {
+  outline: none;
+}
+/* topratedmovies */
+.Top-rated-movies {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.topratedmovies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34px;
+  color: black;
+  font-family: fantasy;
+  text-shadow: 0.3px 0.3px 5px  white;
+  margin-top: 13%;
+  margin-left: 31%;
+}
+.moviephoto1 {
+    max-width: 301px;
+    width: 80%;
+    height: 83.2%;
+    border-radius: 5px;
+    margin-top: 30px;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.moviephoto1:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+
+.godfather {
+    max-width: 301px;
+    height: 83.2%;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 30px;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+}
+.godfather:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.thedarkknight {
+  max-width: 301px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.thedarkknight:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+/* images2 */
+.images2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.thegodfatherpart2 {
+  max-width: 301px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.thegodfatherpart2:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.angryman {
+  max-width: 301px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.angryman:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.schlist {
+  max-width: 301px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.schlist:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+
+/* Newly added movies */
+.N.a.m {
+  margin: 0 auto;
+  max-width:1100px;
+  width: 100%;
+}
+.images-n {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width:1000px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.newly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34px;
+  color: black;
+  font-family: fantasy;
+  text-shadow: 0.3px 0.3px 5px  white;
+  margin-top: 13%;
+  margin-left: 38%;
+}
+.blackadam {
+  max-width: 250px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.blackpanter2 {
+  max-width: 250px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.moviewtcs {
+  max-width: 250px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.broker1 {
+  max-width: 250px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.blackadam:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.blackpanter2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.moviewtcs:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.broker1:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+/* TOPTVSERIES*/
+.TS {
+  margin: 0 auto;
+  max-width:1100px;
+  width: 100%;
+}
+.image-TS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width:1000px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.TTS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 34px;
+  color: black;
+  font-family: fantasy;
+  text-shadow: 0.3px 0.3px 5px  white;
+  margin-top: 13%;
+  margin-left: 38%;
+}
+.bbad {
+  max-width: 320px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.chernobyl {
+  max-width: 320px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.moviethewire {
+  max-width: 320px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.moviemrrobot {
+  max-width: 320px;
+  height: 83.2%;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.moviemrrobot:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.bbad:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.chernobyl:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.moviethewire:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+/* footer-time */
+.footercont {
+  max-width:var(--element-size) ;
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footerdiv {
+  margin: 0 auto;
+  text-align: center;
+}
+.footertitle {
+  font-size: 19px;
+  color: white;
+  margin-top: 10px;
+}
+.footertitle::before {
+  content: "\00a9";
+  font-size: 19px;
+  color: white;
+}
+.footertitle:after {
+  content: "\00a9";
+  font-size: 19px;
+  color: white;
+}
+.admininfo {
+  font-size: 17px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.admininfo::before {
+  content: "\00a9";
+  font-size: 17px;
+  color: white;
+}
+.admininfo::after {
+  content: "\00a9";
+  font-size: 17px;
+  color: white;
+}
+
+
+/* sign in */
+.containeer {
+  max-width: 1920px;
+  width: 100%;
+  background: url('../images/allmoviebackground.jpg');
+  background-size: cover;  
+  height: 1080px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+.logodiv {
+  background-color: #8B0BEF;
+  max-width: 60px;
+  width: 100%;
+  height: 60px;
+  border-radius: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.signin {
+  max-width: 450px;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.96;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  background: -webkit-gradient(linear,left top, left bottom,from(#8B0BEF),to(rgb(48, 171, 157)));
+  background: -o-linear-gradient(#8B0BEF,rgb(48, 171, 157));
+  background: linear-gradient(#8B0BEF,rgb(48, 171, 157));
+  text-align: center;
+  border-radius: 15px;
+  
+}
+.signin h1 {
+  font-size: 34px;
+  font-family: fantasy;
+  font-weight: 500;
+  margin: 100px auto;
+  text-transform: uppercase;
+  
+}
+.input::-webkit-input-placeholder { 
+  color: white;
+}
+.input::-moz-placeholder { 
+  color: white;
+}
+.input:-ms-input-placeholder { 
+  color: white;
+}
+.input::-ms-input-placeholder { 
+  color: white;
+}
+.input::placeholder { 
+  color: white;
+}
+.input {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #051ec1;
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+}
+.input:focus {
+  width:280px;
+  border-color:#2ecc71;
+}
+.submit {
+  border: 0;
+  background:none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  outline: none;
+  color: white;
+  width: 130px;
+  height: 34px;
+  border-radius: 25px;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.submit:hover {
+  background: #2ecc71;
+
+}
+.registernowbutton {
+  max-width: 150px;
+  margin: 50px auto;
+  border-radius:16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 34px;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 0.65s;
+  -o-transition: 0.65s;
+  transition: 0.65s;
+  
+}
+.registernowbutton:hover {
+  background-color: #0b53ef;
+  -webkit-box-shadow: 2px 2px 10px rgb(196, 240, 22);
+          box-shadow: 2px 2px 10px rgb(196, 240, 22);
+}
+.registerp {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 10px blue;
+}
+/* cartoon */
+.genre {
+  max-width: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 6% auto 20px ;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.genre a {
+  background-color: #0b53ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff;
+  
+}
+.genre a:hover {
+  background-color: #051ec1;
+}
+.minidiv {
+  max-width: 180px;
+  width: 60%;
+}
+/* posters */
+.divsection {
+  max-width: 2000px;
+  width: 100%;
+}
+.cartoonposters {
+  max-width: 900px;
+  width:100%;
+  margin: 0 auto;
+}
+.rickandmorthy {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.code {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.rickandmorthy:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.kungfupanda2 {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.kungfupanda2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.madagascarr {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.madagascarr:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.familyguyy {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.familyguyy:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.killingjokee {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.killingjokee:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.codegeass {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.codegeass:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.incredibles2{
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.incredibles2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.toystory2 {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.toystory2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.tomandjerry{
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.incred {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.tomandjerry:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+/* tv.html */
+.containerdiv {
+   max-width: 2000px;
+   width: 100%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   color: black;
+   display: flex;
+   position: relative;
+   z-index: 1;
+   top: 7%;
+   height: 1500px;
+   left: 50%;
+   -webkit-transform: translate(-50%,-7%);
+       -ms-transform: translate(-50%,-7%);
+           transform: translate(-50%,-7%);
+   
+}
+.TVphotodiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  max-width: 2000px;
+  width: 100%;
+  position: absolute;
+
+}
+.TVphoto {
+  max-width: 1000px;
+  width: 93%;
+  margin: 0 auto;
+  height: 700px;
+  
+}
+.aclass {
+  max-width: 500px;
+  width: 100%;
+  position: absolute;
+}
+.bbc {
+  max-width: 60px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.bbc:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.nbc {
+  max-width: 60px;
+  margin-left: 20px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.nbc:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.hbo {
+  max-width: 110px;
+  margin-left: 20px;
+  margin-right: 20px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.hbo:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.sporttv {
+  max-width: 160px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.sporttv:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+/* movieandseries.html */
+.moviesdiv {
+  max-width: 2000px;
+  width: 100%;
+}
+.titleofmovie {
+  margin: 10% 45% auto;
+}
+.movies {
+  font-family: 'Fredoka One', cursive;
+  font-size: 34px;
+}
+.MOVIES {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+.posterofmetime {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.posterofmetime:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.samaritan {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.samaritan:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.intheshadowofthemoon {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.intheshadowofthemoon:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.wakandaforever {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.wakandaforever:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.elcamino {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.elcamino:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.theunholy {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.theunholy:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.thesnowman {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.thesnowman:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.rednotice {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.rednotice:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.se7en{
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.se7en:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.getout {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.getout:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.shutterisland {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.shutterisland:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.batman {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.batman:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.inthe {
+  margin-right: 50px;
+}
+.wakanda {
+  margin-left: 50px;
+}
+.theun {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.sem {
+  margin-left: 50px;
+}
+.man {
+  margin-left: 50px;
+}
+.bm {
+  margin-left: 50px;
+}
+.tu {
+  margin-left: 50px;
+}
+.se7enmovie {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.snow {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* Series */
+.Seriesdiv {
+  max-width: 2000px;
+  width: 100%;
+}
+.titleofseries {
+  margin: 10% 45% auto;
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+}
+.series {
+  font-family: 'Fredoka One', cursive;
+  font-size: 34px;
+}
+.TvSeries {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+.breakingb {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.breakingb:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.MrroBot {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.MrroBot:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.thesopraNos {
+  max-width: 261px;
+  height: 333px;
+  width: 80%;
+  border-radius: 5px;
+  margin-top: 30px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.thesopraNos:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+/* Video */
+
+.videomovie {
+  max-width: 800px;
+}
+.elcaminomovieposter {
+  max-width: 261px;
+  height: 284px;
+  width: 80%;
+  border-radius: 5px;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+.imdb {
+  background-color: yellow;
+  max-width: 100px;
+  width: 100%;
+  height: 23px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.imdbp {
+  font-family: 'Fredoka One', cursive;
+
+}
+.complaintdiv {
+  background-color: rgb(195, 29, 29);
+  max-width: 261px;
+  height: 50px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 7px 4px rgb(58, 58, 58);
+          box-shadow: 2px 2px 7px 4px rgb(58, 58, 58);
+}
+.complaintdiv:hover {
+  background-color: darkred;
+}
+.complainttext {
+  font-family: 'Teko', sans-serif;
+  color: #fff;
+}
+.DivElcamino {
+  width:800px;
+  margin-top: 20px;
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 8px rgb(246, 245, 245);
+          box-shadow: 2px 2px 8px rgb(246, 245, 245);
+}
+.descreption {
+  font-size: 20px;
+  color: rgb(202, 202, 202);
+}

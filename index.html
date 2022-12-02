@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Movie Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Giorgi Vawadze">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fb metatags -->
+
+    <!-- fb metatags -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="icon" href="images/movnight.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>MOVNIGHT</title>
+</head>
+<body>
+    <header class="titleheader">
+        <div class="header1">
+         <div class="swiper">
+         <div class="swiper-wrapper">
+         <!-- Slides -->
+         <div class="swiper-slide"><img class="bettercallsaulcover" src="images/bettercallsaul.jpg" alt="bettercallsaul"></div>
+         <div class="swiper-slide"><img class="mrrobotcover" src="images/mrrobot.jpg" alt="mrrobot"></div>
+         <div class="swiper-slide"><img class="breakingbadcover" src="images/breakingbad.jpg" alt="breakingbad"></div>
+          ...
+        </div>
+       <!-- If we need pagination -->
+       <div class="swiper-pagination"></div>
+
+       <!-- If we need navigation buttons -->
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-button-next"></div>
+          </div>
+          <div class="header">
+          <a class="movnightlogo.a" href="index.html"><img class="mov" src="images/movnight.jpg" alt="movnight"></a>
+          <div class="navigation">
+          <nav class="navtag" id="navtagwrapper">
+            <ul class="ultag">
+                <li><a class="atag" href="movieandseries.html">Movie & Series</a></li>
+                <li><a class="atag" href="tv.html">TV</a></li>
+                <li><a class="atag" href="cartoon.html">cartoon</a></li>
+                <li><a class="atag" href="login.html">Login</a></li>
+                <li><a class="gear" href="#"><i class="fa-solid fa-gear"></i></a></li> 
+            </ul>
+          </nav>
+            <div id="BurgerBar" class="burgerbar">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+           </div>
+          </div>
+    </header>  
+    <section class="containerr">
+      <div class="topnav">
+        <form class="form" action="#">
+        <button class="button" type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button><!--
+        --><input class="inputtypetext" type="text" name="searchbar" id="search" placeholder="Search..">
+        </form>
+      </div>
+      <div class="Top-rated-movies">
+       <a class="topratedmovies" href="#">Top 6 most rated movies</a>
+       <div class="images">
+       <a href="#"><img class="moviephoto1" src="images/shawshankred.jpg" alt="The Shawshank Redemption"></a>
+       <a href="#"><img class="godfather" src="images/the-godfather.jpg" alt="godfather"></a>
+       <a href="#"><img  class="thedarkknight" src="images/thedarkk.jpg" alt="thedarkknight"></a>
+      </div>
+      <div class="images2">
+         <a href="#"><img class="thegodfatherpart2" src="images/godfather2.jpg" alt="godfather2"></a>
+         <a href="#"><img class="angryman" src="images/12angryman.jpg" alt="12angryman"></a>
+         <a href="#"><img class="schlist" src="images/schindlers-list.jpg" alt="schindlers-list"></a>
+      </div>
+      </div>
+      <div class="N.a.m">
+      <a class="newly" href="#">Newly added movies</a>
+      <div class="images-n">
+      <a href="#"><img class="blackadam" src="images/blackadam.jpg" alt="Blackadam"></a>
+      <a href="#"><img class="blackpanter2" src="images/blackpanter2.jpg" alt="blackpanter"></a>
+      <a href="#"><img class="moviewtcs" src="images/wtcs.jpg" alt="wtcs"></a>
+      <a href="#"><img class="broker1" src="images/Broker.jpg" alt="broker"></a>
+      </div>
+      </div>
+      <div class="TS">
+        <a class="TTS" href="#">Top TV series</a>
+        <div class="image-TS">
+        <a href="#"><img class="bbad" src="images/brb.jpg" alt="bb"></a>
+        <a href="#"><img class="chernobyl" src="images/chernobyl.jpg" alt="chernobyl"></a>
+        <a href="#"><img class="moviethewire" src="images/thewire.jpg" alt="thewire"></a>
+        <a href="#"><img class="moviemrrobot" src="images/moviemrrobot.jpg" alt="mrrobot"></a>
+        </div>
+      </div>
+    </section>
+   <footer class="footercont">
+      <div class="footerdiv">
+      <h2 class="admininfo">Created By  G.vawadze</h2>
+      <h2 class="footertitle"> Copyright 2022.MOVNIGHT.com</h2>
+      </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="node.js"></script>
+</body>
+</html>
